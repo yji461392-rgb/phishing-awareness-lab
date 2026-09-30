@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Security Awareness Demo</title>
+</head>
+<body>
+
+  <h2>🔐 Security Awareness Demo</h2>
+
+  <p>This is a practice page. Never enter your real password or OTP.</p>
+
+  <input type="text" placeholder="Demo username">
+  <br><br>
+
+  <input type="password" placeholder="Demo password">
+  <br><br>
+
+  <button onclick="showWarning()">Login</button>
+
+  <p id="warning"></p>
+
+  <script>
+    function showWarning() {
+      document.getElementById("warning").innerText =
+        "⚠️ Demo only — no information was saved or sent.";
+    }
+  </script>
+
+</body>
+</html>
